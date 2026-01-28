@@ -1,0 +1,1001 @@
+{
+  "file": "/home/shaush/md-to-docx/docx_only/[Word 템플릿] A4.docx",
+  "properties": {
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "created": "2025-05-14 01:25:00+00:00",
+    "modified": "2025-12-10 08:38:00+00:00"
+  },
+  "sections": [
+    {
+      "index": 0,
+      "page_width_inches": 8.268055555555556,
+      "page_height_inches": 11.693055555555556,
+      "left_margin_inches": 0.6,
+      "right_margin_inches": 0.5701388888888889,
+      "top_margin_inches": 0.6,
+      "bottom_margin_inches": 0.6
+    }
+  ],
+  "styles": {
+    "Normal": {
+      "type": "paragraph",
+      "name": "Normal",
+      "base_style": null,
+      "font": {},
+      "paragraph_format": {
+        "line_spacing": 1.05,
+        "space_after_pt": 14.0
+      }
+    },
+    "Heading 1": {
+      "type": "paragraph",
+      "name": "Heading 1",
+      "base_style": "(Normal Heading)",
+      "font": {
+        "size_pt": 18.0,
+        "bold": true
+      },
+      "paragraph_format": {
+        "space_before_pt": 22.0,
+        "space_after_pt": 8.0
+      }
+    },
+    "Heading 2": {
+      "type": "paragraph",
+      "name": "Heading 2",
+      "base_style": "(Normal Body)",
+      "font": {
+        "size_pt": 16.0,
+        "bold": true
+      },
+      "paragraph_format": {
+        "line_spacing": 1.2,
+        "space_before_pt": 15.0
+      }
+    },
+    "Heading 3": {
+      "type": "paragraph",
+      "name": "Heading 3",
+      "base_style": "(Normal Body)",
+      "font": {
+        "size_pt": 14.0,
+        "bold": true
+      },
+      "paragraph_format": {
+        "line_spacing": 1.2,
+        "space_before_pt": 15.0
+      }
+    },
+    "Heading 4": {
+      "type": "paragraph",
+      "name": "Heading 4",
+      "base_style": "Normal",
+      "font": {
+        "bold": true
+      },
+      "paragraph_format": {
+        "line_spacing": 1.2,
+        "space_before_pt": 7.0,
+        "space_after_pt": 8.0
+      }
+    },
+    "Default Paragraph Font": {
+      "type": "character",
+      "name": "Default Paragraph Font",
+      "font": {}
+    },
+    "제목 1 Char": {
+      "type": "character",
+      "name": "제목 1 Char",
+      "font": {
+        "size_pt": 18.0,
+        "bold": true
+      }
+    },
+    "제목 2 Char": {
+      "type": "character",
+      "name": "제목 2 Char",
+      "font": {
+        "size_pt": 16.0,
+        "bold": true
+      }
+    },
+    "Footer": {
+      "type": "paragraph",
+      "name": "Footer",
+      "base_style": "(Normal Letterhead)",
+      "font": {
+        "color": "000000"
+      },
+      "paragraph_format": {}
+    },
+    "바닥글 Char": {
+      "type": "character",
+      "name": "바닥글 Char",
+      "font": {
+        "size_pt": 9.0,
+        "color": "000000"
+      }
+    },
+    "Header": {
+      "type": "paragraph",
+      "name": "Header",
+      "base_style": "Body Text",
+      "font": {
+        "color": "343434"
+      },
+      "paragraph_format": {}
+    },
+    "머리글 Char": {
+      "type": "character",
+      "name": "머리글 Char",
+      "font": {
+        "color": "343434"
+      }
+    },
+    "List Alpha": {
+      "type": "paragraph",
+      "name": "List Alpha",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 21.6,
+        "first_line_indent_pt": -21.6
+      }
+    },
+    "Body Text": {
+      "type": "paragraph",
+      "name": "Body Text",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {}
+    },
+    "본문 Char": {
+      "type": "character",
+      "name": "본문 Char",
+      "font": {}
+    },
+    "List Bullet": {
+      "type": "paragraph",
+      "name": "List Bullet",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 21.6,
+        "first_line_indent_pt": -21.6
+      }
+    },
+    "List Number": {
+      "type": "paragraph",
+      "name": "List Number",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 21.6,
+        "first_line_indent_pt": -21.6
+      }
+    },
+    "Address": {
+      "type": "paragraph",
+      "name": "Address",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {}
+    },
+    "Salutation": {
+      "type": "paragraph",
+      "name": "Salutation",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "space_before_pt": 45.0
+      }
+    },
+    "인사말 Char": {
+      "type": "character",
+      "name": "인사말 Char",
+      "font": {}
+    },
+    "CC Enclosure": {
+      "type": "paragraph",
+      "name": "CC Enclosure",
+      "base_style": "Address",
+      "font": {
+        "size_pt": 9.0
+      },
+      "paragraph_format": {}
+    },
+    "Closing": {
+      "type": "paragraph",
+      "name": "Closing",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "space_after_pt": 45.0
+      }
+    },
+    "맺음말 Char": {
+      "type": "character",
+      "name": "맺음말 Char",
+      "font": {}
+    },
+    "Signature": {
+      "type": "paragraph",
+      "name": "Signature",
+      "base_style": "(Normal Heading)",
+      "font": {},
+      "paragraph_format": {
+        "line_spacing": 1.5
+      }
+    },
+    "서명 Char": {
+      "type": "character",
+      "name": "서명 Char",
+      "font": {}
+    },
+    "Date": {
+      "type": "paragraph",
+      "name": "Date",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {}
+    },
+    "날짜 Char": {
+      "type": "character",
+      "name": "날짜 Char",
+      "font": {}
+    },
+    "List Bullet 2": {
+      "type": "paragraph",
+      "name": "List Bullet 2",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 64.8,
+        "first_line_indent_pt": -21.6
+      }
+    },
+    "List Alpha 2": {
+      "type": "paragraph",
+      "name": "List Alpha 2",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 64.8,
+        "first_line_indent_pt": -21.6
+      }
+    },
+    "List Continue": {
+      "type": "paragraph",
+      "name": "List Continue",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 21.6
+      }
+    },
+    "List Continue 2": {
+      "type": "paragraph",
+      "name": "List Continue 2",
+      "base_style": "List Continue",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 64.8
+      }
+    },
+    "List Number 2": {
+      "type": "paragraph",
+      "name": "List Number 2",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 64.8,
+        "first_line_indent_pt": -21.6
+      }
+    },
+    "Body Text Bold": {
+      "type": "paragraph",
+      "name": "Body Text Bold",
+      "base_style": "(Normal Body)",
+      "font": {
+        "bold": true
+      },
+      "paragraph_format": {}
+    },
+    "Normal (Web)": {
+      "type": "paragraph",
+      "name": "Normal (Web)",
+      "base_style": "Normal",
+      "font": {},
+      "paragraph_format": {}
+    },
+    "(Normal Body)": {
+      "type": "paragraph",
+      "name": "(Normal Body)",
+      "base_style": null,
+      "font": {},
+      "paragraph_format": {
+        "line_spacing": 1.5,
+        "space_after_pt": 15.0
+      }
+    },
+    "(Normal Heading)": {
+      "type": "paragraph",
+      "name": "(Normal Heading)",
+      "base_style": null,
+      "font": {},
+      "paragraph_format": {
+        "line_spacing": 1.2,
+        "space_after_pt": 15.0
+      }
+    },
+    "(Normal Letterhead)": {
+      "type": "paragraph",
+      "name": "(Normal Letterhead)",
+      "base_style": null,
+      "font": {
+        "size_pt": 9.0
+      },
+      "paragraph_format": {
+        "line_spacing": 1.5,
+        "space_after_pt": 10.0
+      }
+    },
+    "Subtitle": {
+      "type": "paragraph",
+      "name": "Subtitle",
+      "base_style": "(Normal Body)",
+      "font": {
+        "size_pt": 16.0,
+        "bold": true
+      },
+      "paragraph_format": {
+        "line_spacing": 1.0,
+        "space_before_pt": 7.0,
+        "space_after_pt": 7.0
+      }
+    },
+    "부제 Char": {
+      "type": "character",
+      "name": "부제 Char",
+      "font": {
+        "size_pt": 16.0,
+        "bold": true
+      }
+    },
+    "TOC Heading": {
+      "type": "paragraph",
+      "name": "TOC Heading",
+      "base_style": "Heading 1",
+      "font": {
+        "size_pt": 16.0
+      },
+      "paragraph_format": {
+        "space_after_pt": 30.0
+      }
+    },
+    "toc 1": {
+      "type": "paragraph",
+      "name": "toc 1",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {}
+    },
+    "toc 2": {
+      "type": "paragraph",
+      "name": "toc 2",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 21.6
+      }
+    },
+    "toc 3": {
+      "type": "paragraph",
+      "name": "toc 3",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "left_indent_pt": 43.2
+      }
+    },
+    "toa heading": {
+      "type": "paragraph",
+      "name": "toa heading",
+      "base_style": "(Normal Heading)",
+      "font": {
+        "size_pt": 12.0,
+        "bold": true
+      },
+      "paragraph_format": {}
+    },
+    "Title": {
+      "type": "paragraph",
+      "name": "Title",
+      "base_style": "(Normal Heading)",
+      "font": {
+        "size_pt": 38.0
+      },
+      "paragraph_format": {
+        "line_spacing": 0.9,
+        "space_before_pt": 7.0,
+        "space_after_pt": 49.0
+      }
+    },
+    "제목 Char": {
+      "type": "character",
+      "name": "제목 Char",
+      "font": {
+        "size_pt": 38.0
+      }
+    },
+    "Subtle Reference": {
+      "type": "character",
+      "name": "Subtle Reference",
+      "font": {}
+    },
+    "Mention": {
+      "type": "character",
+      "name": "Mention",
+      "font": {}
+    },
+    "Smart Link": {
+      "type": "character",
+      "name": "Smart Link",
+      "font": {
+        "underline": true
+      }
+    },
+    "Subtle Emphasis": {
+      "type": "character",
+      "name": "Subtle Emphasis",
+      "font": {
+        "italic": true,
+        "color": "404040"
+      }
+    },
+    "Smart Hyperlink": {
+      "type": "character",
+      "name": "Smart Hyperlink",
+      "font": {
+        "underline": 4
+      }
+    },
+    "List Bullet 3": {
+      "type": "paragraph",
+      "name": "List Bullet 3",
+      "base_style": "Normal",
+      "font": {},
+      "paragraph_format": {}
+    },
+    "Intense Quote": {
+      "type": "paragraph",
+      "name": "Intense Quote",
+      "base_style": "(Normal Body)",
+      "font": {},
+      "paragraph_format": {
+        "alignment": "CENTER (1)",
+        "space_before_pt": 18.0,
+        "space_after_pt": 18.0,
+        "left_indent_pt": 36.0
+      }
+    },
+    "강한 인용 Char": {
+      "type": "character",
+      "name": "강한 인용 Char",
+      "font": {}
+    },
+    "Intense Reference": {
+      "type": "character",
+      "name": "Intense Reference",
+      "font": {
+        "bold": true,
+        "italic": false
+      }
+    },
+    "Intense Emphasis": {
+      "type": "character",
+      "name": "Intense Emphasis",
+      "font": {
+        "italic": true
+      }
+    },
+    "Block Text": {
+      "type": "paragraph",
+      "name": "Block Text",
+      "base_style": "Normal",
+      "font": {
+        "italic": true
+      },
+      "paragraph_format": {
+        "left_indent_pt": 36.0
+      }
+    },
+    "Letterhead": {
+      "type": "paragraph",
+      "name": "Letterhead",
+      "base_style": "(Normal Letterhead)",
+      "font": {},
+      "paragraph_format": {}
+    },
+    "Hyperlink": {
+      "type": "character",
+      "name": "Hyperlink",
+      "font": {
+        "underline": true
+      }
+    },
+    "Unresolved Mention": {
+      "type": "character",
+      "name": "Unresolved Mention",
+      "font": {
+        "color": "605E5C"
+      }
+    },
+    "Signature Title": {
+      "type": "paragraph",
+      "name": "Signature Title",
+      "base_style": "Signature",
+      "font": {},
+      "paragraph_format": {
+        "space_after_pt": 15.0
+      }
+    },
+    "FollowedHyperlink": {
+      "type": "character",
+      "name": "FollowedHyperlink",
+      "font": {
+        "size_pt": 10.5,
+        "italic": false,
+        "underline": true,
+        "color": "000000"
+      }
+    },
+    "제목 3 Char": {
+      "type": "character",
+      "name": "제목 3 Char",
+      "font": {
+        "size_pt": 14.0,
+        "bold": true
+      }
+    },
+    "제목 4 Char": {
+      "type": "character",
+      "name": "제목 4 Char",
+      "font": {
+        "bold": true
+      }
+    },
+    "Chart Header": {
+      "type": "paragraph",
+      "name": "Chart Header",
+      "base_style": null,
+      "font": {
+        "name": "Arial",
+        "size_pt": 12.0,
+        "bold": true
+      },
+      "paragraph_format": {
+        "line_spacing": 1.2,
+        "space_before_pt": 15.0,
+        "space_after_pt": 15.0,
+        "left_indent_pt": 0.7
+      }
+    },
+    "Table Text": {
+      "type": "paragraph",
+      "name": "Table Text",
+      "base_style": "Body Text",
+      "font": {
+        "size_pt": 9.0
+      },
+      "paragraph_format": {
+        "line_spacing": 1.0416666666666667,
+        "space_before_pt": 7.5,
+        "space_after_pt": 7.5
+      }
+    },
+    "Table Header": {
+      "type": "paragraph",
+      "name": "Table Header",
+      "base_style": "Heading 4",
+      "font": {
+        "size_pt": 10.0
+      },
+      "paragraph_format": {
+        "space_before_pt": 7.5,
+        "space_after_pt": 7.5
+      }
+    },
+    "Caption": {
+      "type": "paragraph",
+      "name": "Caption",
+      "base_style": "(Normal Heading)",
+      "font": {
+        "size_pt": 9.0
+      },
+      "paragraph_format": {
+        "space_before_pt": 7.0,
+        "space_after_pt": 7.0
+      }
+    },
+    "Quote": {
+      "type": "paragraph",
+      "name": "Quote",
+      "base_style": "(Normal Heading)",
+      "font": {
+        "size_pt": 18.0,
+        "color": "404040"
+      },
+      "paragraph_format": {
+        "line_spacing": 1.5,
+        "space_before_pt": 15.0
+      }
+    },
+    "인용 Char": {
+      "type": "character",
+      "name": "인용 Char",
+      "font": {
+        "size_pt": 18.0,
+        "color": "404040"
+      }
+    },
+    "Legal Local Detail": {
+      "type": "paragraph",
+      "name": "Legal Local Detail",
+      "base_style": "CC Enclosure",
+      "font": {
+        "size_pt": 6.0
+      },
+      "paragraph_format": {
+        "line_spacing": 1.0,
+        "left_indent_pt": 252.0
+      }
+    },
+    "Legal Local Name Address Footer": {
+      "type": "paragraph",
+      "name": "Legal Local Name Address Footer",
+      "base_style": "Address",
+      "font": {},
+      "paragraph_format": {
+        "line_spacing": 1.0,
+        "space_after_pt": 2.5,
+        "left_indent_pt": 252.0
+      }
+    },
+    "URL": {
+      "type": "paragraph",
+      "name": "URL",
+      "base_style": "Address",
+      "font": {},
+      "paragraph_format": {}
+    },
+    "Report Callout": {
+      "type": "paragraph",
+      "name": "Report Callout",
+      "base_style": null,
+      "font": {
+        "size_pt": 40.0,
+        "color": "404040"
+      },
+      "paragraph_format": {
+        "line_spacing": 0.9,
+        "space_after_pt": 15.0,
+        "left_indent_pt": 126.0
+      }
+    },
+    "Report Quotation Mark Character": {
+      "type": "paragraph",
+      "name": "Report Quotation Mark Character",
+      "base_style": "Report Callout",
+      "font": {
+        "size_pt": 120.0,
+        "bold": true,
+        "color": "FD5108"
+      },
+      "paragraph_format": {
+        "line_spacing": 571500,
+        "left_indent_pt": 121.7
+      }
+    }
+  },
+  "content_preview": [
+    {
+      "index": 0,
+      "text_preview": "Title style for cover headline (automated update in footer)",
+      "style_name": "Title",
+      "runs": [
+        {
+          "text_preview": "Title style for cover headline",
+          "font": {}
+        },
+        {
+          "text_preview": " (auto",
+          "font": {}
+        },
+        {
+          "text_preview": "mated update in footer",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "text_preview": "Subtitle",
+      "style_name": "Subtitle",
+      "runs": [
+        {
+          "text_preview": "Subtitle",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "text_preview": "",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "text_preview": "",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "text_preview": "",
+      "style_name": "Body Text",
+      "runs": [
+        {
+          "text_preview": "",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "text_preview": "",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "text_preview": "",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "text_preview": "",
+      "style_name": "Body Text"
+    },
+    {
+      "index": 6,
+      "text_preview": "",
+      "style_name": "Normal",
+      "runs": [
+        {
+          "text_preview": "",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "text_preview": "",
+      "style_name": "Body Text"
+    },
+    {
+      "index": 8,
+      "text_preview": "Body Text style: The font is 11 points with 1.5 lines spacing. In addition, styles in your new templ",
+      "style_name": "Body Text",
+      "runs": [
+        {
+          "text_preview": "Body Text style: The font is 11 points with ",
+          "font": {}
+        },
+        {
+          "text_preview": "1.5 lines spacing",
+          "font": {}
+        },
+        {
+          "text_preview": ". In addition, styles in your new templates have b",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "text_preview": "List Bullet style: Font body text style but with automated bullets and a hanging indent to have cont",
+      "style_name": "List Bullet",
+      "runs": [
+        {
+          "text_preview": "List Bullet style: Font body text style but with a",
+          "font": {}
+        },
+        {
+          "text_preview": "space after",
+          "font": {}
+        },
+        {
+          "text_preview": " has been added to automate spacing between paragr",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "text_preview": "List Continue style: Font size and line spacing duplicate Body Text style and is present with a hang",
+      "style_name": "List Continue",
+      "runs": [
+        {
+          "text_preview": "List Continue style: Font size and line spacing du",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "text_preview": "List Bullet 2 style: Font size and line spacing duplicate Body Text style, plus is preset left inden",
+      "style_name": "List Bullet 2",
+      "runs": [
+        {
+          "text_preview": "List Bullet 2 style: Font size and line spacing du",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "text_preview": "List Continue 2 style: Font size and line spacing duplicate Body Text style plus is present with an ",
+      "style_name": "List Continue 2",
+      "runs": [
+        {
+          "text_preview": "List Continue 2 style: Font size and line spacing ",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "text_preview": "List Number style: Font size and line spacing duplicate Body Text style, plus has a hanging indent t",
+      "style_name": "List Number",
+      "runs": [
+        {
+          "text_preview": "List Number style: Font size and line spacing dupl",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "text_preview": "List Number 2 style: Font size and line spacing duplicate Body Text style, plus has a left indent an",
+      "style_name": "List Number 2",
+      "runs": [
+        {
+          "text_preview": "List Number 2 style: Font size and line spacing du",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "text_preview": "List Alpha style: Font size and line spacing duplicate Body Text style, plus has a hanging indent to",
+      "style_name": "List Alpha",
+      "runs": [
+        {
+          "text_preview": "List ",
+          "font": {}
+        },
+        {
+          "text_preview": "Alpha",
+          "font": {}
+        },
+        {
+          "text_preview": " style: Font size and line spacing duplicate Body ",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "text_preview": "List Number 2 style: Font size and line spacing duplicate Body Text style, with a left indent and a ",
+      "style_name": "List Alpha 2",
+      "runs": [
+        {
+          "text_preview": "List Number 2 style: Font size and line spacing du",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "text_preview": "Body Text style: The font is 11 points with 1.5 lines spacing. In addition, styles in your new templ",
+      "style_name": "Body Text",
+      "runs": [
+        {
+          "text_preview": "Body Text style: The font is 11 points with ",
+          "font": {}
+        },
+        {
+          "text_preview": "1.5 lines spacing",
+          "font": {}
+        },
+        {
+          "text_preview": ". In addition, styles in your new templates have b",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "text_preview": "Body Text style: The font is 11 points with 1.5 lines spacing. In addition, styles in your new templ",
+      "style_name": "Body Text",
+      "runs": [
+        {
+          "text_preview": "Body Text style: The font is 11 points with 1.5 li",
+          "font": {}
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "text_preview": "Body Text style: The font is 11 points with 1.5 lines spacing. In addition, styles in your new templ",
+      "style_name": "Body Text",
+      "runs": [
+        {
+          "text_preview": "Body Text style: The font is 11 points with 1.5 li",
+          "font": {}
+        }
+      ]
+    }
+  ],
+  "headers_footers": {
+    "headers": [
+      {
+        "text": "",
+        "paragraphs_count": 1
+      }
+    ],
+    "footers": [
+      {
+        "text": "",
+        "paragraphs_count": 1
+      }
+    ]
+  },
+  "backgrounds": [
+    {
+      "rels_files": [
+        "_rels/.rels",
+        "word/_rels/document.xml.rels",
+        "word/_rels/header1.xml.rels",
+        "word/_rels/footer2.xml.rels",
+        "word/_rels/settings.xml.rels",
+        "customXml/_rels/item1.xml.rels",
+        "customXml/_rels/item2.xml.rels",
+        "customXml/_rels/item3.xml.rels",
+        "customXml/_rels/item4.xml.rels"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "original_path": "word/media/image3.png",
+      "extracted_path": "extracted_template/image3.png",
+      "name": "image3.png"
+    },
+    {
+      "original_path": "word/media/image2.png",
+      "extracted_path": "extracted_template/image2.png",
+      "name": "image2.png"
+    },
+    {
+      "original_path": "word/media/image1.png",
+      "extracted_path": "extracted_template/image1.png",
+      "name": "image1.png"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "file_path": "docx_only/Tax AI 질문 리스트(답변 추가).docx",
+  "page_width_inches": 8.268055555555556,
+  "page_height_inches": 11.693055555555556,
+  "margins": {
+    "left": 1.0,
+    "right": 1.0,
+    "top": 1.18125,
+    "bottom": 1.0
+  },
+  "default_font": null,
+  "default_font_size_pt": null,
+  "theme_colors": {
+    "dk1": "000000",
+    "lt1": "FFFFFF",
+    "dk2": "44546A",
+    "lt2": "E7E6E6",
+    "accent1": "4472C4",
+    "accent2": "ED7D31",
+    "accent3": "A5A5A5",
+    "accent4": "FFC000",
+    "accent5": "5B9BD5",
+    "accent6": "70AD47",
+    "hlink": "0563C1",
+    "folHlink": "954F72"
+  },
+  "styles": {
+    "a": {
+      "style_id": "a",
+      "name": "Normal",
+      "style_type": "paragraph"
+    },
+    "2": {
+      "style_id": "2",
+      "name": "heading 2",
+      "style_type": "paragraph",
+      "base_style": "a"
+    },
+    "a0": {
+      "style_id": "a0",
+      "name": "Default Paragraph Font",
+      "style_type": "character"
+    },
+    "a1": {
+      "style_id": "a1",
+      "name": "Normal Table",
+      "style_type": "table"
+    },
+    "a2": {
+      "style_id": "a2",
+      "name": "No List",
+      "style_type": "numbering"
+    },
+    "a3": {
+      "style_id": "a3",
+      "name": "header",
+      "style_type": "paragraph",
+      "base_style": "a"
+    },
+    "Char": {
+      "style_id": "Char",
+      "name": "머리글 Char",
+      "style_type": "character",
+      "base_style": "a0"
+    },
+    "a4": {
+      "style_id": "a4",
+      "name": "footer",
+      "style_type": "paragraph",
+      "base_style": "a"
+    },
+    "Char0": {
+      "style_id": "Char0",
+      "name": "바닥글 Char",
+      "style_type": "character",
+      "base_style": "a0"
+    },
+    "a5": {
+      "style_id": "a5",
+      "name": "List Paragraph",
+      "style_type": "paragraph",
+      "base_style": "a",
+      "left_indent_pt": 40.0
+    },
+    "2Char": {
+      "style_id": "2Char",
+      "name": "제목 2 Char",
+      "style_type": "character",
+      "base_style": "a0"
+    },
+    "a6": {
+      "style_id": "a6",
+      "name": "Table Grid",
+      "style_type": "table",
+      "base_style": "a1",
+      "space_after_pt": 0.0,
+      "line_spacing": 1.0
+    }
+  },
+  "images": [],
+  "page_templates": {
+    "body": {
+      "page_type": "body",
+      "background_image": null,
+      "header_image": null,
+      "footer_image": null,
+      "styles_used": [
+        "2",
+        "a5",
+        "a"
+      ],
+      "description": "본문 표준 양식"
+    }
+  }
+}

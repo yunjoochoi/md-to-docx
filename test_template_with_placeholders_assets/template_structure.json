@@ -1,0 +1,802 @@
+{
+  "file_path": "test_template_with_placeholders.docx",
+  "page_width_inches": 8.268055555555556,
+  "page_height_inches": 11.693055555555556,
+  "margins": {
+    "left": 0.6,
+    "right": 0.5701388888888889,
+    "top": 0.6,
+    "bottom": 0.6
+  },
+  "default_font": null,
+  "default_font_size_pt": 11.0,
+  "theme_colors": {
+    "dk1": "000000",
+    "lt1": "FFFFFF",
+    "dk2": "000000",
+    "lt2": "EBEBEB",
+    "accent1": "FD5108",
+    "accent2": "FE7C39",
+    "accent3": "FFAA72",
+    "accent4": "A1A8B3",
+    "accent5": "B5BCC4",
+    "accent6": "CBD1D6",
+    "hlink": "E27700",
+    "folHlink": "7E2010"
+  },
+  "styles": {
+    "a1": {
+      "style_id": "a1",
+      "name": "Normal",
+      "style_type": "paragraph",
+      "font_name": "Times New Roman",
+      "space_after_pt": 14.0,
+      "line_spacing": 1.05
+    },
+    "1": {
+      "style_id": "1",
+      "name": "heading 1",
+      "style_type": "paragraph",
+      "base_style": "NormalHeading",
+      "font_name": "Times New Roman",
+      "font_size_pt": 18.0,
+      "bold": true,
+      "space_before_pt": 22.0,
+      "space_after_pt": 8.0,
+      "line_spacing": 1.2,
+      "outline_level": 0
+    },
+    "21": {
+      "style_id": "21",
+      "name": "heading 2",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "font_size_pt": 16.0,
+      "bold": true,
+      "space_before_pt": 15.0,
+      "space_after_pt": 15.0,
+      "line_spacing": 1.2,
+      "outline_level": 1
+    },
+    "30": {
+      "style_id": "30",
+      "name": "heading 3",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "font_size_pt": 14.0,
+      "bold": true,
+      "space_before_pt": 15.0,
+      "space_after_pt": 15.0,
+      "line_spacing": 1.2,
+      "outline_level": 2
+    },
+    "4": {
+      "style_id": "4",
+      "name": "heading 4",
+      "style_type": "paragraph",
+      "base_style": "a1",
+      "font_name": "Times New Roman",
+      "bold": true,
+      "space_before_pt": 7.0,
+      "space_after_pt": 8.0,
+      "line_spacing": 1.2,
+      "outline_level": 3
+    },
+    "a3": {
+      "style_id": "a3",
+      "name": "Default Paragraph Font",
+      "style_type": "character"
+    },
+    "a4": {
+      "style_id": "a4",
+      "name": "Normal Table",
+      "style_type": "table"
+    },
+    "a5": {
+      "style_id": "a5",
+      "name": "No List",
+      "style_type": "numbering"
+    },
+    "1Char": {
+      "style_id": "1Char",
+      "name": "제목 1 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman",
+      "font_size_pt": 18.0,
+      "bold": true
+    },
+    "2Char": {
+      "style_id": "2Char",
+      "name": "제목 2 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman",
+      "font_size_pt": 16.0,
+      "bold": true
+    },
+    "a6": {
+      "style_id": "a6",
+      "name": "footer",
+      "style_type": "paragraph",
+      "base_style": "NormalLetterhead",
+      "font_name": "Times New Roman",
+      "font_size_pt": 9.0,
+      "color_rgb": "000000",
+      "space_after_pt": 10.0,
+      "line_spacing": 1.5
+    },
+    "Char": {
+      "style_id": "Char",
+      "name": "바닥글 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman",
+      "font_size_pt": 9.0,
+      "color_rgb": "000000"
+    },
+    "a7": {
+      "style_id": "a7",
+      "name": "header",
+      "style_type": "paragraph",
+      "base_style": "a2",
+      "font_name": "Times New Roman",
+      "color_rgb": "343434",
+      "space_after_pt": 0.0,
+      "line_spacing": 1.5
+    },
+    "Char0": {
+      "style_id": "Char0",
+      "name": "머리글 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman",
+      "color_rgb": "343434"
+    },
+    "ListAlpha": {
+      "style_id": "ListAlpha",
+      "name": "List Alpha",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 21.6
+    },
+    "a2": {
+      "style_id": "a2",
+      "name": "Body Text",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "Char1": {
+      "style_id": "Char1",
+      "name": "본문 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman"
+    },
+    "a0": {
+      "style_id": "a0",
+      "name": "List Bullet",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 21.6
+    },
+    "a": {
+      "style_id": "a",
+      "name": "List Number",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 21.6
+    },
+    "Address": {
+      "style_id": "Address",
+      "name": "Address",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "a8": {
+      "style_id": "a8",
+      "name": "Salutation",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_before_pt": 45.0,
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "Char2": {
+      "style_id": "Char2",
+      "name": "인사말 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman"
+    },
+    "CCEnclosure": {
+      "style_id": "CCEnclosure",
+      "name": "CC Enclosure",
+      "style_type": "paragraph",
+      "base_style": "Address",
+      "font_name": "Times New Roman",
+      "font_size_pt": 9.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.5
+    },
+    "a9": {
+      "style_id": "a9",
+      "name": "Closing",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 45.0,
+      "line_spacing": 1.5
+    },
+    "Char3": {
+      "style_id": "Char3",
+      "name": "맺음말 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman"
+    },
+    "aa": {
+      "style_id": "aa",
+      "name": "Signature",
+      "style_type": "paragraph",
+      "base_style": "NormalHeading",
+      "font_name": "Times New Roman",
+      "space_after_pt": 0.0,
+      "line_spacing": 1.5
+    },
+    "Char4": {
+      "style_id": "Char4",
+      "name": "서명 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman"
+    },
+    "ab": {
+      "style_id": "ab",
+      "name": "Date",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "Char5": {
+      "style_id": "Char5",
+      "name": "날짜 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman"
+    },
+    "20": {
+      "style_id": "20",
+      "name": "List Bullet 2",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 64.8
+    },
+    "ListAlpha2": {
+      "style_id": "ListAlpha2",
+      "name": "List Alpha 2",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 64.8
+    },
+    "ac": {
+      "style_id": "ac",
+      "name": "List Continue",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 21.6
+    },
+    "22": {
+      "style_id": "22",
+      "name": "List Continue 2",
+      "style_type": "paragraph",
+      "base_style": "ac",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 64.8
+    },
+    "2": {
+      "style_id": "2",
+      "name": "List Number 2",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 64.8
+    },
+    "BodyTextBold": {
+      "style_id": "BodyTextBold",
+      "name": "Body Text Bold",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "bold": true,
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "ad": {
+      "style_id": "ad",
+      "name": "Normal (Web)",
+      "style_type": "paragraph",
+      "base_style": "a1",
+      "font_name": "Times New Roman",
+      "space_after_pt": 14.0,
+      "line_spacing": 1.05
+    },
+    "NormalBody": {
+      "style_id": "NormalBody",
+      "name": "(Normal Body)",
+      "style_type": "paragraph",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "NormalHeading": {
+      "style_id": "NormalHeading",
+      "name": "(Normal Heading)",
+      "style_type": "paragraph",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.2
+    },
+    "NormalLetterhead": {
+      "style_id": "NormalLetterhead",
+      "name": "(Normal Letterhead)",
+      "style_type": "paragraph",
+      "font_name": "Times New Roman",
+      "font_size_pt": 9.0,
+      "space_after_pt": 10.0,
+      "line_spacing": 1.5
+    },
+    "ae": {
+      "style_id": "ae",
+      "name": "Subtitle",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "font_size_pt": 16.0,
+      "bold": true,
+      "space_before_pt": 7.0,
+      "space_after_pt": 7.0,
+      "line_spacing": 1.0
+    },
+    "Char6": {
+      "style_id": "Char6",
+      "name": "부제 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_size_pt": 16.0,
+      "bold": true
+    },
+    "TOC": {
+      "style_id": "TOC",
+      "name": "TOC Heading",
+      "style_type": "paragraph",
+      "base_style": "1",
+      "font_name": "Times New Roman",
+      "font_size_pt": 16.0,
+      "bold": true,
+      "space_before_pt": 0.0,
+      "space_after_pt": 30.0,
+      "line_spacing": 1.2,
+      "outline_level": 9
+    },
+    "10": {
+      "style_id": "10",
+      "name": "toc 1",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "23": {
+      "style_id": "23",
+      "name": "toc 2",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 21.6
+    },
+    "31": {
+      "style_id": "31",
+      "name": "toc 3",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 43.2
+    },
+    "af": {
+      "style_id": "af",
+      "name": "toa heading",
+      "style_type": "paragraph",
+      "base_style": "NormalHeading",
+      "font_name": "Times New Roman",
+      "font_size_pt": 12.0,
+      "bold": true,
+      "space_after_pt": 15.0,
+      "line_spacing": 1.2
+    },
+    "af0": {
+      "style_id": "af0",
+      "name": "Title",
+      "style_type": "paragraph",
+      "base_style": "NormalHeading",
+      "font_name": "Times New Roman",
+      "font_size_pt": 38.0,
+      "space_before_pt": 7.0,
+      "space_after_pt": 49.0,
+      "line_spacing": 0.9
+    },
+    "Char7": {
+      "style_id": "Char7",
+      "name": "제목 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_size_pt": 38.0
+    },
+    "af1": {
+      "style_id": "af1",
+      "name": "Subtle Reference",
+      "style_type": "character",
+      "base_style": "a3",
+      "color_rgb": "auto"
+    },
+    "af2": {
+      "style_id": "af2",
+      "name": "Mention",
+      "style_type": "character",
+      "color_rgb": "auto"
+    },
+    "af3": {
+      "style_id": "af3",
+      "name": "Smart Link",
+      "style_type": "character",
+      "base_style": "a3",
+      "color_rgb": "auto"
+    },
+    "af4": {
+      "style_id": "af4",
+      "name": "Subtle Emphasis",
+      "style_type": "character",
+      "italic": true,
+      "color_rgb": "404040"
+    },
+    "af5": {
+      "style_id": "af5",
+      "name": "Smart Hyperlink",
+      "style_type": "character"
+    },
+    "3": {
+      "style_id": "3",
+      "name": "List Bullet 3",
+      "style_type": "paragraph",
+      "base_style": "a1",
+      "font_name": "Times New Roman",
+      "space_after_pt": 14.0,
+      "line_spacing": 1.05
+    },
+    "af6": {
+      "style_id": "af6",
+      "name": "Intense Quote",
+      "style_type": "paragraph",
+      "base_style": "NormalBody",
+      "font_name": "Times New Roman",
+      "alignment": "center",
+      "space_before_pt": 18.0,
+      "space_after_pt": 18.0,
+      "line_spacing": 1.5,
+      "left_indent_pt": 36.0
+    },
+    "Char8": {
+      "style_id": "Char8",
+      "name": "강한 인용 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman"
+    },
+    "af7": {
+      "style_id": "af7",
+      "name": "Intense Reference",
+      "style_type": "character",
+      "bold": true,
+      "italic": false,
+      "color_rgb": "auto"
+    },
+    "af8": {
+      "style_id": "af8",
+      "name": "Intense Emphasis",
+      "style_type": "character",
+      "italic": true,
+      "color_rgb": "auto"
+    },
+    "af9": {
+      "style_id": "af9",
+      "name": "Block Text",
+      "style_type": "paragraph",
+      "base_style": "a1",
+      "font_name": "Times New Roman",
+      "italic": true,
+      "space_after_pt": 14.0,
+      "line_spacing": 1.05,
+      "left_indent_pt": 36.0
+    },
+    "Letterhead": {
+      "style_id": "Letterhead",
+      "name": "Letterhead",
+      "style_type": "paragraph",
+      "base_style": "NormalLetterhead",
+      "font_name": "Times New Roman",
+      "font_size_pt": 9.0,
+      "space_after_pt": 10.0,
+      "line_spacing": 1.5
+    },
+    "afa": {
+      "style_id": "afa",
+      "name": "Hyperlink",
+      "style_type": "character"
+    },
+    "afb": {
+      "style_id": "afb",
+      "name": "Unresolved Mention",
+      "style_type": "character",
+      "base_style": "a3",
+      "color_rgb": "605E5C"
+    },
+    "SignatureTitle": {
+      "style_id": "SignatureTitle",
+      "name": "Signature Title",
+      "style_type": "paragraph",
+      "base_style": "aa",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "afc": {
+      "style_id": "afc",
+      "name": "FollowedHyperlink",
+      "style_type": "character",
+      "font_size_pt": 10.5,
+      "italic": false,
+      "color_rgb": "000000"
+    },
+    "3Char": {
+      "style_id": "3Char",
+      "name": "제목 3 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_size_pt": 14.0,
+      "bold": true
+    },
+    "4Char": {
+      "style_id": "4Char",
+      "name": "제목 4 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "bold": true
+    },
+    "ChartHeader": {
+      "style_id": "ChartHeader",
+      "name": "Chart Header",
+      "style_type": "paragraph",
+      "font_name": "Arial",
+      "font_size_pt": 12.0,
+      "bold": true,
+      "space_before_pt": 15.0,
+      "space_after_pt": 15.0,
+      "line_spacing": 1.2,
+      "left_indent_pt": 0.7
+    },
+    "TableText": {
+      "style_id": "TableText",
+      "name": "Table Text",
+      "style_type": "paragraph",
+      "base_style": "a2",
+      "font_name": "Times New Roman",
+      "font_size_pt": 9.0,
+      "space_before_pt": 7.5,
+      "space_after_pt": 7.5,
+      "line_spacing": 1.0416666666666667
+    },
+    "TableHeader": {
+      "style_id": "TableHeader",
+      "name": "Table Header",
+      "style_type": "paragraph",
+      "base_style": "4",
+      "font_name": "Times New Roman",
+      "font_size_pt": 10.0,
+      "bold": true,
+      "space_before_pt": 7.5,
+      "space_after_pt": 7.5,
+      "line_spacing": 1.2
+    },
+    "afd": {
+      "style_id": "afd",
+      "name": "caption",
+      "style_type": "paragraph",
+      "base_style": "NormalHeading",
+      "font_name": "Times New Roman",
+      "font_size_pt": 9.0,
+      "space_before_pt": 7.0,
+      "space_after_pt": 7.0,
+      "line_spacing": 1.2
+    },
+    "afe": {
+      "style_id": "afe",
+      "name": "Quote",
+      "style_type": "paragraph",
+      "base_style": "NormalHeading",
+      "font_name": "Times New Roman",
+      "font_size_pt": 18.0,
+      "color_rgb": "404040",
+      "space_before_pt": 15.0,
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "Char9": {
+      "style_id": "Char9",
+      "name": "인용 Char",
+      "style_type": "character",
+      "base_style": "a3",
+      "font_name": "Times New Roman",
+      "font_size_pt": 18.0,
+      "color_rgb": "404040"
+    },
+    "LegalLocalDetail": {
+      "style_id": "LegalLocalDetail",
+      "name": "Legal Local Detail",
+      "style_type": "paragraph",
+      "base_style": "CCEnclosure",
+      "font_name": "Times New Roman",
+      "font_size_pt": 6.0,
+      "space_after_pt": 0.0,
+      "line_spacing": 1.0,
+      "left_indent_pt": 252.0
+    },
+    "LegalLocalNameAddressFooter": {
+      "style_id": "LegalLocalNameAddressFooter",
+      "name": "Legal Local Name Address Footer",
+      "style_type": "paragraph",
+      "base_style": "Address",
+      "font_name": "Times New Roman",
+      "space_after_pt": 2.5,
+      "line_spacing": 1.0,
+      "left_indent_pt": 252.0
+    },
+    "URL": {
+      "style_id": "URL",
+      "name": "URL",
+      "style_type": "paragraph",
+      "base_style": "Address",
+      "font_name": "Times New Roman",
+      "space_after_pt": 15.0,
+      "line_spacing": 1.5
+    },
+    "ReportCallout": {
+      "style_id": "ReportCallout",
+      "name": "Report Callout",
+      "style_type": "paragraph",
+      "font_name": "Times New Roman",
+      "font_size_pt": 40.0,
+      "color_rgb": "404040",
+      "space_after_pt": 15.0,
+      "line_spacing": 0.9,
+      "left_indent_pt": 126.0
+    },
+    "ReportQuotationMarkCharacter": {
+      "style_id": "ReportQuotationMarkCharacter",
+      "name": "Report Quotation Mark Character",
+      "style_type": "paragraph",
+      "base_style": "ReportCallout",
+      "font_name": "Times New Roman",
+      "font_size_pt": 120.0,
+      "bold": true,
+      "color_rgb": "FD5108",
+      "space_after_pt": 0.0,
+      "line_spacing": 3.75,
+      "left_indent_pt": 121.7
+    },
+    "aff": {
+      "style_id": "aff",
+      "name": "Table Grid",
+      "style_type": "table",
+      "base_style": "a4",
+      "space_after_pt": 0.0,
+      "line_spacing": 1.0
+    }
+  },
+  "images": [
+    {
+      "name": "image1.png",
+      "original_path": "word/media/image1.png",
+      "extracted_path": "test_template_with_placeholders_assets/image1.png",
+      "width_emu": 2871470,
+      "height_emu": 554990,
+      "position": "header",
+      "is_background": false,
+      "rel_id": "rId1",
+      "page_type": ""
+    },
+    {
+      "name": "image2.png",
+      "original_path": "word/media/image2.png",
+      "extracted_path": "test_template_with_placeholders_assets/image2.png",
+      "width_emu": 7562088,
+      "height_emu": 10689336,
+      "position": "header",
+      "is_background": true,
+      "rel_id": "rId2",
+      "page_type": "cover"
+    },
+    {
+      "name": "image3.png",
+      "original_path": "word/media/image3.png",
+      "extracted_path": "test_template_with_placeholders_assets/image3.png",
+      "width_emu": 5943934,
+      "height_emu": 1249871,
+      "position": "footer",
+      "is_background": true,
+      "rel_id": "rId1",
+      "page_type": "body"
+    }
+  ],
+  "page_templates": {
+    "cover": {
+      "page_type": "cover",
+      "background_image": null,
+      "header_image": null,
+      "footer_image": null,
+      "styles_used": [
+        "ae",
+        "a1",
+        "af0"
+      ],
+      "description": "페이지 0에서 감지된 표지 양식"
+    },
+    "body": {
+      "page_type": "body",
+      "background_image": null,
+      "header_image": null,
+      "footer_image": null,
+      "styles_used": [
+        "a2"
+      ],
+      "description": "본문 표준 양식"
+    }
+  }
+}

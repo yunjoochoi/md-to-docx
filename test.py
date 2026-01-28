@@ -76,4 +76,4 @@ def convert_md_to_custom_word(md_file_path, template_path, output_path):
     print(f"변환 완료: {output_path}")
 
 # 실제 사용 시
-convert_md_to_custom_word('/home/shaush/projects/md-to-docx/samples/예상산출물_한주 토지매각 관련 계약서_IRAC 2.md', '/home/shaush/projects/md-to-docx/samples/[Word 템플릿] A4.docx', '최종결과물.docx')
+convert_md_to_custom_word('/home/shaush/work/parsed-outputs/예상산출물_한주 토지매각 관련 계약서_IRAC 2.md', '/home/shaush/md-to-docx/docx_only/[Word 템플릿] A4.docx', '최종결과물.docx')
